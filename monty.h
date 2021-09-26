@@ -51,18 +51,8 @@ void nop(stack_t **stack, unsigned int line_number);
 void pop(stack_t **stack, unsigned int line_number);
 void push(stack_t **stack, char *n, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
-int _atoi(char *str);
-void run(char (*refer)[80]);
-void f_list(stack_t *mystack);
 void pint(stack_t **stack, unsigned int line_number);
 int find_opcode(stack_t **stack, char *opcode, int line_number);
-void add(stack_t **stack, unsigned int line_number);
-void multi(stack_t **stack, unsigned int line_number);
-void pchar(stack_t **stack, unsigned int line_number);
-void module(stack_t **stack, unsigned int line_number);
-void division(stack_t **stack, unsigned int line_number);
-void pstr(stack_t **stack, unsigned int line_number);
-int _putchar(char c);
 void swap(stack_t **stack, unsigned int line_number);
 size_t lol(stack_t *h);
 #endif
